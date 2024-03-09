@@ -19,14 +19,15 @@ public class PostagemController {
 		@Autowired
 		private PostagemRepository postagemRepository;
 		
-		@GetMapping
-		public ResponseEnity<List<Postagem>> getAll(){
-			return ResponseEnity.ok(postagemRepository.findAll());
+		//@GetMapping
+		//public ResponseEnity<List<Postagem>> getAll(){
+			//return ResponseEnity.ok(postagemRepository.findAll());
 			
 		}
 		
 		
-	}
+		
+	
 	
 
 
