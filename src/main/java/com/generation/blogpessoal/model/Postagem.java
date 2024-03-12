@@ -17,6 +17,8 @@ import jakarta.validation.constraints.Size;
 @Table(name = "tb_postagens")
 public class Postagem {
 	
+		public static Object Repository;
+
 		@Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private Long id;
