@@ -1,5 +1,6 @@
 package com.generation.blogpessoal.security;
 
+
 import java.io.IOException;
 
 import org.springframework.beans.factory.annotation.Autowired;
